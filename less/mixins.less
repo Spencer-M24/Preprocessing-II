@@ -1,1 +1,25 @@
 // Mixins in here
+.button-mixin(@color,@bgc,@border-rad,@width,@height) {
+    color: @color;
+    background-color: @bgc;
+    border-radius: @border-rad;
+    width: @width;
+    height: @height;
+}
+
+ //.button-mixin(green, orange, 20px, 200px, 50px, );
+ //.btn() {
+ //    font-size: 2rem;
+ //    text-align: center;
+ //    padding-top: 4%;
+ //} 
+//// // Seperation  //
+ //@media @phone {
+ //    .btn {
+ //        width: 100%;
+ //        .button-mixin(green, orange, 20px, 360px, 50px,);
+ //        font-size: 2rem;
+ //        text-align: center;
+ //        padding-top: 4%;
+ //    }
+//}
